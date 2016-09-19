@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{447C0378-8EEC-428C-B6D7-6D96F181FDBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B50E3BA-406C-4C19-9E29-437F1D093F55}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoList", "src\ToDoList\ToDoList.xproj", "{B247D2A2-A9B3-4793-AD87-8120B0892390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList.Tests", "ToDoList.Tests", "{E329CDA8-9109-4C15-87DD-FC5F4DF86760}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoList.Tests", "ToDoList.Tests\ToDoList.Tests\ToDoList.Tests.xproj", "{E848E762-4670-4E07-82E8-2F02352EE1D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B247D2A2-A9B3-4793-AD87-8120B0892390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B247D2A2-A9B3-4793-AD87-8120B0892390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B247D2A2-A9B3-4793-AD87-8120B0892390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B247D2A2-A9B3-4793-AD87-8120B0892390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E848E762-4670-4E07-82E8-2F02352EE1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E848E762-4670-4E07-82E8-2F02352EE1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E848E762-4670-4E07-82E8-2F02352EE1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E848E762-4670-4E07-82E8-2F02352EE1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B247D2A2-A9B3-4793-AD87-8120B0892390} = {447C0378-8EEC-428C-B6D7-6D96F181FDBA}
+		{E848E762-4670-4E07-82E8-2F02352EE1D0} = {E329CDA8-9109-4C15-87DD-FC5F4DF86760}
+	EndGlobalSection
+EndGlobal
